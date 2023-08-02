@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the heading */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px; /* Set a maximum width to prevent it from getting too wide on large screens */
+}
+
+.heading {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: rgb(240, 94, 143);
+}
+
+/* Basic styles for the navigation bar */
+nav {
+    background-color: rgb(255, 201, 209);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(232, 86, 134);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff0000; /* Change the color on hover to indicate interactivity */
+}
